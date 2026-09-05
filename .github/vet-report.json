@@ -1,0 +1,40 @@
+{
+  "gate": "warn",
+  "license": {
+    "declared": "GPL-3.0",
+    "detected": [],
+    "license_files": [],
+    "matches": false,
+    "status": "warn",
+    "detail": "declared GPL-3.0 but no license/SPDX content detected in archive"
+  },
+  "asset": {
+    "format": "tar.gz",
+    "size": 24692062,
+    "valid": true,
+    "is_html": false,
+    "binary": "vicinae",
+    "elf_arch": "x86-64",
+    "status": "pass",
+    "detail": "valid tar.gz archive containing 6 ELF executable(s); first: vicinae (x86-64); release covers: amd64 "
+  },
+  "architectures": {
+    "covered": [
+      "amd64"
+    ],
+    "missing": [
+      "arm64",
+      "armel",
+      "armhf",
+      "i386",
+      "ppc64el",
+      "s390x",
+      "riscv64",
+      "loong64"
+    ],
+    "assets": {
+      "amd64": "vicinae-linux-x86_64-v0.28.1.tar.gz"
+    }
+  },
+  "vetted_at": "2026-09-05T08:06:21Z"
+}

@@ -1,0 +1,23 @@
+{
+  "package": "vicinae",
+  "upstream_repo": "vicinaehq/vicinae",
+  "version": "v0.28.1",
+  "tag": "v0.28.1",
+  "published_at": "2026-09-03T15:24:40Z",
+  "license": "GPL-3.0",
+  "asset": "vicinae-linux-x86_64-v0.28.1.tar.gz",
+  "asset_size": 24692062,
+  "sha256": "4bc9ad954742a48a771e0b5d2dbcff85091c6215aa655405ab576566047b5488",
+  "expected_sha256": "",
+  "checksum_source": "",
+  "checksum_verified": false,
+  "assets": {
+    "vicinae-linux-x86_64-v0.28.1.tar.gz": {
+      "sha256": "4bc9ad954742a48a771e0b5d2dbcff85091c6215aa655405ab576566047b5488",
+      "size": 24692062
+    }
+  },
+  "asset_count": 1,
+  "vetted_at": "2026-09-05T08:06:20Z",
+  "vetted_by": ""
+}

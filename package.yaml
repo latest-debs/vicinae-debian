@@ -1,0 +1,16 @@
+# Package definition for vicinae
+
+package_name: vicinae
+github_repo: vicinaehq/vicinae
+artifact_format: tar.gz
+description: "A focused launcher for your desktop - native, fast, extensible"
+license: GPL-3.0
+
+# Build for all Debian suites and all supported architectures.
+
+# Opt into native Ubuntu builds (builder >= v.0.1a29). Packages without
+# these are served from the Debian suites via the alias fallback.
+ubuntu_distributions:
+  - jammy
+  - noble
+  - resolute
