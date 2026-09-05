@@ -6,6 +6,11 @@ artifact_format: tar.gz
 description: "A focused launcher for your desktop - native, fast, extensible"
 license: GPL-3.0
 
+# vicinae ships a /usr-style prefix tree (bin/vicinae, libexec/vicinae/*,
+# lib/systemd/user, share/) with no top-level ELF, so the default
+# BUNDLE=false flatten fails with "no executables landed".
+bundle: true
+
 # Build for all Debian suites and all supported architectures.
 
 # Opt into native Ubuntu builds (builder >= v.0.1a29). Packages without
